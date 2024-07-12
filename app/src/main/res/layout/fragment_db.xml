@@ -31,18 +31,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Matrícula"/>
+                android:text="Matrícula"
+                android:textColor="@android:color/white" />/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/inMatricula"
                 android:inputType="number"
-                android:hint="2021030262"/>
+                android:hint="202..."/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombre"/>
+                android:text="Nombre"
+                android:textColor="@android:color/white" />/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,7 +54,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Domicilio"/>
+                android:text="Domicilio"
+                android:textColor="@android:color/white" />/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,13 +65,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Foto"/>
+                android:text="Foto"
+                android:textColor="@android:color/white" />/>
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@mipmap/foto"
+
                 android:layout_gravity="center"
                 android:id="@+id/imgAlumno"/>
+
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -81,7 +87,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Especialidad"/>
+                android:text="Especialidad"
+                android:textColor="@android:color/white" />/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

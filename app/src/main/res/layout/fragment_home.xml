@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:text="Nombre Alumno"
                     android:textSize="18sp"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Carrera"
                 android:textSize="16sp"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:text="Materia"
                 android:textSize="16sp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white" />
                 android:layout_marginTop="16dp"/>
 
             <TextView
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:text="Matricula"
                 android:textSize="16sp"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white" />
                 android:layout_marginTop="16dp"/>
 
             <TextView
@@ -115,6 +115,7 @@
                 android:id="@+id/textViewLink"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
                 android:text="Visitar sitio web: https://abelsanchezurrea.netlify.app/"
                 android:textSize="16sp"
 

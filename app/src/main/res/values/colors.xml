@@ -3,7 +3,7 @@
     <color name="black">#424242</color> <!-- Dark Gray -->
     <color name="white">#FFFFFF</color> <!-- Pure White -->
     <color name="grey">#9E9E9E</color> <!-- Light Gray -->
-    <color name="fondo">#F5F5F5</color> <!-- Very Light Gray -->
+    <color name="fondo">#191919</color> <!-- Very Light Gray -->
     <color name="barra">#EEEEEE</color> <!-- Medium Gray -->
     <color name="header">#E0E0E0</color> <!-- Lighter Gray -->
     <color name="miColor">#7d7f7d</color> <!-- Deep Purple -->
@@ -23,7 +23,7 @@
     <color name="onPrimaryColor">#FFFFFF</color> <!-- Text color on primary color -->
     <color name="secondaryColor">#7d7f7d</color> <!-- Secondary color -->
     <color name="secondaryDarkColor">#E64A19</color> <!-- Darker shade of secondary color -->
-    <color name="onSecondaryColor">#000000</color> <!-- Text color on secondary color -->
+    <color name="onSecondaryColor">#ffffff</color> <!-- Text color on secondary color -->
     <color name="backgroundColor">#FFFFFF</color> <!-- Background color -->
     <color name="hintColor">#9E9E9E</color> <!-- Hint text color -->
 </resources>

@@ -20,13 +20,13 @@ class CustomArrayAdapter(context: Context, private val items: List<String>) :
         return object : Filter() {
             override fun performFiltering(constraint: CharSequence?): FilterResults {
                 val filterResults = FilterResults()
-                val query = constraint?.toString()?.lowercase(Locale.getDefault()) ?: ""
+                val query = constraint?.toString()?.replace(" ", "")?.lowercase(Locale.getDefault()) ?: ""
 
                 filteredItems = if (query.isEmpty()) {
                     items
                 } else {
                     items.filter {
-                        it.lowercase(Locale.getDefault()).contains(query)
+                        it.replace(" ", "").lowercase(Locale.getDefault()).contains(query)
                     }
                 }
 

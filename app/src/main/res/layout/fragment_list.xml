@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:titleTextColor="@color/miColor"
-            app:subtitleTextColor="@color/miColor"
+            android:textColor="@android:color/white"
             app:title="Filtrar alumnos"
             android:background="@color/header"/>
 
@@ -37,7 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginBottom="140sp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:textColor="@android:color/white" />/>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

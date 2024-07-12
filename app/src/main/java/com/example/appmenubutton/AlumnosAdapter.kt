@@ -38,12 +38,13 @@ class AlumnosAdapter(
     override fun getFilter(): Filter {
         return object : Filter() {
             override fun performFiltering(constraint: CharSequence?): FilterResults {
-                val query = constraint?.toString()?.lowercase()?.trim() ?: ""
+                val query = constraint?.toString()?.replace(" ", "")?.lowercase()?.trim() ?: ""
                 filteredAlumnosList = if (query.isEmpty()) {
                     alumnosList
                 } else {
                     alumnosList.filter {
-                        it.nombre.lowercase().contains(query) || it.especialidad.lowercase().contains(query)
+                        it.nombre.replace(" ", "").lowercase().contains(query) ||
+                                it.especialidad.replace(" ", "").lowercase().contains(query)
                     }
                 }
                 val filterResults = FilterResults()
